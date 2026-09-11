@@ -7,10 +7,6 @@ import androidx.wear.compose.material.MaterialTheme
 fun WearableTrackerTheme(
     content: @Composable () -> Unit
 ) {
-    /**
-     * Empty theme to customize for your app.
-     * See: https://kaisteloper.android.com/jetpack/compose/designsystems/custom
-     */
     MaterialTheme(
         content = content
     )

@@ -53,6 +53,16 @@ android {
 
         buildConfigField("String", "SUPABASE_URL", "\"$supabaseUrl\"")
         buildConfigField("String", "SUPABASE_ANON_KEY", "\"$supabaseAnonKey\"")
+
+        // Google Auth web client id: read from local.properties or environment (for CI).
+        // Exposed as a string resource because both AndroidManifest and CredentialManager
+        // consume it as @string/default_web_client_id.
+        val webClientId: String = findProperty("WEB_CLIENT_ID")?.toString()
+            ?: localProperties.getProperty("WEB_CLIENT_ID")
+            ?: System.getenv("WEB_CLIENT_ID")
+            ?: "MISSING_WEB_CLIENT_ID"
+
+        resValue("string", "default_web_client_id", webClientId)
     }
 
     compileOptions {

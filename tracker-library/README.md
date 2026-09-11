@@ -57,4 +57,5 @@ below records where each sensor actually runs:
 - `app-wearable-tracker` &mdash; Galaxy Watch companion application.
 
 ## Acknowledgement
-We thank [Sanghyeon Lee](https://github.com/nailegg) and [Arslan Kenbayev](https://github.com/arskenchik) for porting and training the WatchHAR model on Android, which enabled the gesture sensor in EnPULSE.
+The WatchHAR model behind the gesture sensor was ported to Android and trained by external
+collaborators. Acknowledgements are withheld for anonymous review.

@@ -1,5 +1,5 @@
 # EnPULSE
-**EnPULSE (Enabling Platform for User Logging and Sensing Environment)** is a sensor data collection platform for mobile and wrist-worn wearable devices. Developed by KAIST Interactive Computing Laboratory.
+**EnPULSE (Enabling Platform for User Logging and Sensing Environment)** is a sensor data collection platform for mobile and wrist-worn wearable devices.
 
 ## Overview
 EnPULSE consists of several core components, which can also be used individually.
@@ -16,11 +16,11 @@ A mobile app for easy smartphone sensor data collection from Samsung devices. Se
 ### Wearable Tracker Application (`app-wearable-tracker`)
 A smartwatch app for continuous biosignal sensing on Galaxy Watch devices. See the [Wearable Tracker README](app-wearable-tracker/README.md) for details.
 
-### [Backend](https://github.com/Kaist-ICLab/EnPULSE-backend)
-Locally-hosted Supabase-based backend component for storing sensor data and campaign configuration.
+### Backend
+Locally-hosted Supabase-based backend component for storing sensor data and campaign configuration. The repository link is withheld for anonymous review.
 
-### [Dashboard](https://github.com/Kaist-ICLab/EnPULSE-dashboard)
-Web-based dashboard for campaign configuration, management, and data monitoring.
+### Dashboard
+Web-based dashboard for campaign configuration, management, and data monitoring. The repository link is withheld for anonymous review.
 
 ### WebApp Platform (EnPULSE WebApps)
 EnPULSE supports dynamic, remote-configured web applications (WebApps) that can be triggered dynamically from sensor state evaluations:
